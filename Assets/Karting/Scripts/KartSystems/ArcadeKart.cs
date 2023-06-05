@@ -338,7 +338,7 @@ namespace KartGame.KartSystems
         void TickPowerups()
         {
             // remove all elapsed powerups
-            m_ActivePowerupList.RemoveAll((p) => { return p.ElapsedTime > p.MaxTime; });
+            
 
             // zero out powerups before we add them all up
             var powerups = new Stats();
@@ -350,7 +350,10 @@ namespace KartGame.KartSystems
 
                 // add elapsed time
                 p.ElapsedTime += Time.fixedDeltaTime;
-
+                if(p.ElapsedTime > p.MaxTime) {
+                    p.ElapsedTime = 0;
+                    m_ActivePowerupList.Remove(p);
+                }
                 // add up the powerups
                 powerups += p.modifiers;
             }
@@ -595,6 +598,11 @@ namespace KartGame.KartSystems
             }
 
             ActivateDriftVFX(IsDrifting && GroundPercent > 0.0f);
+        }
+
+        public void RemovePowerupList()
+        {
+            m_ActivePowerupList.Clear();
         }
     }
 }

@@ -2,6 +2,7 @@
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
+using UnityEngine.UI;
 using Unity.MLAgents.Actuators;
 using Random = UnityEngine.Random;
 
@@ -101,6 +102,10 @@ namespace KartGame.AI
         public float timeBetweenDecisionsAtInference;
         float m_TimeSinceDecision;
 
+        public Text TimeText;
+        public Text SpeedText;
+        float trackTime = 0.0f;
+
         Vector3 startPos;
         Quaternion startRot;
 
@@ -132,6 +137,8 @@ namespace KartGame.AI
 
         void Update()
         {
+            trackTime += Time.deltaTime;
+            TimeText.text = trackTime.ToString("F2");
             if (m_EndEpisode)
             {
                 way_point_passing_count = 0;
@@ -186,8 +193,9 @@ namespace KartGame.AI
                     index = i;
 
                     way_point_passing_count++;
+                    Debug.Log(way_point_passing_count);
 
-                    if(way_point_passing_count >= 38)
+                    if(way_point_passing_count >= 48)
                     {
                         way_point_passing_count = 0;
                         m_EndEpisode = true;
@@ -286,6 +294,15 @@ namespace KartGame.AI
 
         public override void OnEpisodeBegin()
         {
+            for (int i = 0; i < Colliders.Length; i++)
+            {
+                
+                Colliders[i].gameObject.SetActive(true);
+            }
+            m_Kart.RemovePowerupList();
+            
+            trackTime = 0;
+            SpeedText.text = "";
             switch (Mode)
             {
                 case AgentMode.Training:

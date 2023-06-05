@@ -1,5 +1,6 @@
 ﻿using KartGame.KartSystems;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class ArcadeKartPowerup : MonoBehaviour {
@@ -13,7 +14,7 @@ public class ArcadeKartPowerup : MonoBehaviour {
     public float lastActivatedTimestamp { get; private set; }
 
     public float cooldown = 5f;
-
+    public Text speedText;
     public bool disableGameObjectWhenActivated;
     public UnityEvent onPowerupActivated;
     public UnityEvent onPowerupFinishCooldown;
@@ -21,6 +22,7 @@ public class ArcadeKartPowerup : MonoBehaviour {
     private void Awake()
     {
         lastActivatedTimestamp = -9999f;
+        speedText = GameObject.Find("SpeedText").GetComponent<Text>();
     }
 
 
@@ -31,6 +33,7 @@ public class ArcadeKartPowerup : MonoBehaviour {
             if (Time.time - lastActivatedTimestamp > cooldown) {
                 //finished cooldown!
                 isCoolingDown = false;
+                speedText.text = "";
                 onPowerupFinishCooldown.Invoke();
             }
 
@@ -52,11 +55,17 @@ public class ArcadeKartPowerup : MonoBehaviour {
                 lastActivatedTimestamp = Time.time;
                 kart.AddPowerup(this.boostStats);
                 onPowerupActivated.Invoke();
+                speedText.text = "Speed Up!!!";
                 isCoolingDown = true;
 
-                if (disableGameObjectWhenActivated) this.gameObject.SetActive(false);
+                //if (disableGameObjectWhenActivated) this.gameObject.SetActive(false);
             }
         }
+    }
+
+    public void SetIsCollingDownFalse()
+    {
+        isCoolingDown = false;
     }
 
 }
