@@ -141,7 +141,7 @@ namespace KartGame.AI
             TimeText.text = trackTime.ToString("F2");
             if (m_EndEpisode)
             {
-                way_point_passing_count = 0;
+                //way_point_passing_count = 0;
                 m_EndEpisode = false;
                 AddReward(m_LastAccumulatedReward);
                 EndEpisode();
@@ -199,13 +199,17 @@ namespace KartGame.AI
                     {
                         way_point_passing_count = 0;
                         trackTime = 0;
+                        for (int j = 0; j < Colliders.Length; j++)
+                        {
+                            Colliders[j].gameObject.SetActive(true);
+                        }
                         m_EndEpisode = true;
                     }
 
                     return;
                 }
             }
-            index = -1;
+            index = m_CheckpointIndex;
         }
 
         float Sign(float value)
@@ -295,18 +299,13 @@ namespace KartGame.AI
 
         public override void OnEpisodeBegin()
         {
-            for (int i = 0; i < Colliders.Length; i++)
-            {
-                
-                Colliders[i].gameObject.SetActive(true);
-            }
             m_Kart.RemovePowerupList();
-            
             
             SpeedText.text = "";
             switch (Mode)
             {
                 case AgentMode.Training:
+                    way_point_passing_count = 0;
                     m_CheckpointIndex = 0;
                     transform.localRotation = startRot;
                     transform.position = startPos;
@@ -315,6 +314,10 @@ namespace KartGame.AI
                     m_Brake = false;
                     m_Steering = 0f;
                     trackTime = 0;
+                    for (int i = 0; i < Colliders.Length; i++)
+                    {
+                        Colliders[i].gameObject.SetActive(true);
+                    }
                     break;
                 default:
                     break;
