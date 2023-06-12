@@ -695,66 +695,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e65ade38007cd0408cfa39e2d4712c5, type: 3}
---- !u!1 &47359959 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 2023758405}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &47359960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47359959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1205026218}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &47359961
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47359959}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 1.3, z: 0.4}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &47359962
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47359959}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &47359965 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
@@ -4044,72 +3984,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315231056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &321433036 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 2147030918}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &321433037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 2147030918}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &321433038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321433036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1091955696}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &321433039
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321433036}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &321433040
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321433036}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &322291928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
@@ -5168,12 +5048,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 1442782804}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &421261765 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1829079739}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &431052005
 PrefabInstance:
@@ -6554,12 +6428,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 167121437}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &555625809 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1445845087}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &559341103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7661,72 +7529,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 651447902}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &656276249 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 1724359399}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &656276250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 1724359399}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &656276251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656276249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1970019471}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &656276252
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656276249}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &656276253
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656276249}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!1 &657964855
 GameObject:
   m_ObjectHideFlags: 0
@@ -9929,72 +9737,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8747da5aca2de149ba514acaefe5bc8, type: 3}
---- !u!1 &868081186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 195918563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &868081187 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 195918563}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &868081188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868081186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1146261551}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &868081189
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868081186}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &868081190
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868081186}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &870791512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7841096914571986436, guid: 1c994073ac1d5445695ce53ec5195532,
@@ -11127,72 +10875,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981127043}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &995779226 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 1734703059}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &995779227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 1734703059}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &995779228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995779226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 555625809}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &995779229
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995779226}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &995779230
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995779226}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &998834294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2826207941614822498, guid: 6e65ade38007cd0408cfa39e2d4712c5,
@@ -11210,12 +10898,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5022913156557138268, guid: f0e3041cbcc42c24aa42b5e0daff4d22,
     type: 3}
   m_PrefabInstance: {fileID: 893321373}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1021410813 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1040653175}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1022878207
 PrefabInstance:
@@ -11307,72 +10989,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1710856039}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1036469955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 204059283}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1036469956 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 204059283}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1036469957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036469955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1646542866}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1036469958
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036469955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1036469959
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036469955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!1001 &1040653175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11937,12 +11559,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090498232}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!198 &1091955696 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 843365122}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1102954990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
@@ -11954,12 +11570,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
     type: 3}
   m_PrefabInstance: {fileID: 1764845506}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1112957713 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 822003646}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1119835944
 PrefabInstance:
@@ -12195,12 +11805,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146002246}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!198 &1146261551 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1486441304}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1148396017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12661,18 +12265,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3150477231637896739, guid: 93b71a531f8220e459355f2a17b16ebe,
     type: 3}
   m_PrefabInstance: {fileID: 1189231320}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1204678415 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1591870669}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1205026218 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1297551238}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1207444722 stripped
 Transform:
@@ -13926,72 +13518,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337014545}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1340489361 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 830143878}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1340489362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 830143878}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1340489363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340489361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 421261765}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1340489364
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340489361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1340489365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340489361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!1001 &1343856310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15903,72 +15435,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3db18af586e758b48b4717e4e63a4892, type: 3}
---- !u!1 &1546838986 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 1148396017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1546838987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 1148396017}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1546838988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546838986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1112957713}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1546838989
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546838986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1546838990
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546838986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!1 &1547897167
 GameObject:
   m_ObjectHideFlags: 0
@@ -17007,12 +16479,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 46737747}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1646542866 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2044265784}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1655199447 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2487255624211460057, guid: 2264c8932ad4c344db988793d61365fc,
@@ -17505,6 +16971,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 703113834}
     m_Modifications:
+    - target: {fileID: 5809114438043411884, guid: ee34de824f7e9b843a435b46a297fd37,
+        type: 3}
+      propertyPath: triggerBody
+      value: 
+      objectReference: {fileID: 1969564090}
+    - target: {fileID: 5809114438043411884, guid: ee34de824f7e9b843a435b46a297fd37,
+        type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1970019471}
     - target: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
         type: 3}
       propertyPath: m_RootOrder
@@ -18916,72 +18392,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2299f494e1674e9684aad2e11474f9d, type: 3}
---- !u!1 &1839117311 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 238014746}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1839117312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 238014746}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1839117313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839117311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1021410813}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1839117314
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839117311}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1839117315
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839117311}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &1847684804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
@@ -19084,12 +18500,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848832998}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!198 &1854981019 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1866372465, guid: 05b85e11e59634a069efe1d16952f2f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1123757850}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1858649862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762279410858888883, guid: da5281a831131284094215b6da2abb98,
@@ -19899,72 +19309,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1968529909 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 2065767993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1968529910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 2065767993}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1968529911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968529909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204678415}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1968529912
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968529909}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1968529913
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968529909}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!1001 &1969564089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20594,72 +19944,12 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 1119835944}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1972084369 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7891488105537040411, guid: ee34de824f7e9b843a435b46a297fd37,
-    type: 3}
-  m_PrefabInstance: {fileID: 643313339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1972084370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7408388618125912737, guid: ee34de824f7e9b843a435b46a297fd37,
     type: 3}
   m_PrefabInstance: {fileID: 643313339}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1972084371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972084369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1840a4d25f8d44faa5fa1b5a7726b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerBody: {fileID: 1969564090}
-  onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1854981019}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &1972084372
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972084369}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
---- !u!65 &1972084373
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972084369}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43, y: 1.296, z: 0.43}
-  m_Center: {x: 0, y: 0.648, z: 0}
 --- !u!4 &1979851733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
@@ -22144,12 +21434,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BounceFactor: 15
-  RotationSpeed: 3
+  RotationSpeed: 1
   CollisionLayer:
     serializedVersion: 2
     m_Bits: 2048
   RayDistance: 1
-  PauseTime: 0.5
+  PauseTime: 1
   HeightOffset: 0
   Angles:
   - 90
