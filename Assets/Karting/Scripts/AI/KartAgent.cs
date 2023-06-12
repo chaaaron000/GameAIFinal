@@ -198,6 +198,7 @@ namespace KartGame.AI
                     if(way_point_passing_count >= 48)
                     {
                         way_point_passing_count = 0;
+                        trackTime = 0;
                         m_EndEpisode = true;
                     }
 
@@ -301,7 +302,7 @@ namespace KartGame.AI
             }
             m_Kart.RemovePowerupList();
             
-            trackTime = 0;
+            
             SpeedText.text = "";
             switch (Mode)
             {
@@ -313,6 +314,7 @@ namespace KartGame.AI
                     m_Acceleration = false;
                     m_Brake = false;
                     m_Steering = 0f;
+                    trackTime = 0;
                     break;
                 default:
                     break;
