@@ -293,8 +293,8 @@ namespace KartGame.AI
 
             // Add rewards if the agent is heading in the right direction
             AddReward(reward * TowardsCheckpointReward);
-            //AddReward((m_Acceleration && !m_Brake ? 1.0f : 0.0f) * AccelerationReward);
-            //AddReward(m_Kart.LocalSpeed() * SpeedReward);
+            AddReward((m_Acceleration && !m_Brake ? 1.0f : 0.0f) * AccelerationReward);
+            AddReward(m_Kart.LocalSpeed() * SpeedReward);
         }
 
         public override void OnEpisodeBegin()

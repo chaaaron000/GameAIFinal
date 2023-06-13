@@ -7,7 +7,11 @@ namespace KartGame.KartSystems
 {
     public class ArcadeKart : MonoBehaviour
     {
+        public float changedSpeed;
+        public float changedAcceleration;
+
         [System.Serializable]
+
         public class StatPowerup
         {
             public ArcadeKart.Stats modifiers;
@@ -389,6 +393,7 @@ namespace KartGame.KartSystems
                 if (Mathf.Abs(dot) > 0.1f)
                 {
                     float speed = Rigidbody.velocity.magnitude;
+                    changedSpeed = speed;
                     return dot < 0 ? -(speed / m_FinalStats.ReverseSpeed) : (speed / m_FinalStats.TopSpeed);
                 }
                 return 0f;
@@ -430,6 +435,7 @@ namespace KartGame.KartSystems
             // use the max speed for the direction we are going--forward or reverse.
             float maxSpeed = localVelDirectionIsFwd ? m_FinalStats.TopSpeed : m_FinalStats.ReverseSpeed;
             float accelPower = accelDirectionIsFwd ? m_FinalStats.Acceleration : m_FinalStats.ReverseAcceleration;
+            changedAcceleration = accelPower;
 
             float currentSpeed = Rigidbody.velocity.magnitude;
             float accelRampT = currentSpeed / maxSpeed;
