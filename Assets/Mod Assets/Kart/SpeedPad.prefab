@@ -114,8 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boostStats:
     modifiers:
-      TopSpeed: 3
-      Acceleration: 2
+      TopSpeed: 7
+      Acceleration: 10
       ReverseSpeed: 0
       ReverseAcceleration: 0
       AccelerationCurve: 0
@@ -126,8 +126,8 @@ MonoBehaviour:
       AddedGravity: 0
     PowerUpID: 
     ElapsedTime: 0
-    MaxTime: 5
-  cooldown: 5
+    MaxTime: 1
+  cooldown: 1
   speedText: {fileID: 0}
   disableGameObjectWhenActivated: 1
   onPowerupActivated:

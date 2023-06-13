@@ -13,7 +13,7 @@ public class ArcadeKartPowerup : MonoBehaviour {
     public bool isCoolingDown { get; private set; }
     public float lastActivatedTimestamp { get; private set; }
 
-    public float cooldown = 5f;
+    public float cooldown = 1f;
     public Text speedText;
     public bool disableGameObjectWhenActivated;
     public UnityEvent onPowerupActivated;
